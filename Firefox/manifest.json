@@ -1,0 +1,60 @@
+{
+  "manifest_version": 2,
+
+  "author": "don.bidon",
+  "default_locale": "en",
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__.",
+  "homepage_url": "https://addons.mozilla.org/addon/php-manual-language-keeper/",
+  "version": "0.1.0",
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  },
+
+  "permissions": [
+    "http://php.net/manual/",
+    "https://secure.php.net/manual/",
+    "storage"
+  ],
+
+  "background": {
+    "scripts": [
+      "config.js",
+      "backend/core.js",
+      "backend/updates.js"
+    ]
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://php.net/manual/*",
+        "https://secure.php.net/manual/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "config.js",
+        "frontend/add-ons/start.js"
+      ]
+    },
+    {
+      "matches": [
+        "http://php.net/manual/*",
+        "https://secure.php.net/manual/*"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "frontend/add-ons/end.js"
+      ]
+    }
+  ],
+
+  "icons": {
+    "24": "frontend/images/icon.24x24.png",
+    "48": "frontend/images/icon.48x48.png",
+    "96": "frontend/images/icon.96x96.png"
+  }
+}

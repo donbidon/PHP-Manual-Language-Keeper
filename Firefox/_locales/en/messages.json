@@ -1,0 +1,15 @@
+{
+  "extension_name": {
+    "message": "PHP Manual Language Keeper"
+  },
+  "extension_description": {
+    "message": "Saves'n'restores last selected language for PHP Manual website"
+  },
+
+  "link": {
+    "message": "Language Keeper"
+  },
+  "link_title": {
+    "message": "Add-on saving'n'restoring last selected language"
+  }
+}
