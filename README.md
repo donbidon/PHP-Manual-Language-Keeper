@@ -10,7 +10,8 @@
 Saves'n'restores last selected language for PHP Manual website.
 
 ## Social Network Groups
-* [vk.com](https://vk.com/addon_php_manual_language_keeper).
+* [vk.com](https://vk.com/addon_php_manual_language_keeper);
+* [facebook.com](https://www.facebook.com/groups/306967849986220/about/).
  
 ## Donating
 [Yandex.Money, Visa, MasterCard, Maestro](https://money.yandex.ru/to/41001351141494) or visit [Liberapay](https://liberapay.com/don.bidon/donate).
