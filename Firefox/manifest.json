@@ -5,12 +5,13 @@
   "default_locale": "en",
   "name": "__MSG_extension_name__",
   "description": "__MSG_extension_description__.",
-  "homepage_url": "https://addons.mozilla.org/addon/php-manual-language-keeper/",
-  "version": "0.1.0",
+  "homepage_url": "https://github.com/donbidon/PHP-Manual-Language-Keeper",
+  "version": "0.1.1",
 
   "applications": {
     "gecko": {
-      "strict_min_version": "57.0"
+      "strict_min_version": "57.0",
+      "id": "{d3d04fdc-7784-4ddb-bf40-e933180a6854}"
     }
   },
 
